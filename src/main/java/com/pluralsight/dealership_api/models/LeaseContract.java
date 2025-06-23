@@ -1,4 +1,4 @@
-package com.pluralsight.dealership_api.dealership;
+package com.pluralsight.dealership_api.models;
 
 public class LeaseContract extends Contract {
     private double expectedEndingValue;

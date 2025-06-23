@@ -1,7 +1,7 @@
 package com.pluralsight.dealership_api.controllers;
 
 import com.pluralsight.dealership_api.dao.VehicleDao;
-import com.pluralsight.dealership_api.dealership.Vehicle;
+import com.pluralsight.dealership_api.models.Vehicle;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -33,7 +33,7 @@ public class VehiclesController {
     // UPDATE by VIN
     @PutMapping("/{vin}")
     public void updateVehicle(@PathVariable String vin, @RequestBody Vehicle vehicle) {
-        vehicle.setVin(vin); // Ensure VIN matches path
+        vehicle.setVin(vin);
         vehicleDao.update(vehicle);
 
     }

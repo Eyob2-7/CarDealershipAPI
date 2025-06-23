@@ -1,6 +1,6 @@
 package com.pluralsight.dealership_api.dao;
 
-import com.pluralsight.dealership_api.dealership.Vehicle;
+import com.pluralsight.dealership_api.models.Vehicle;
 
 import java.util.List;
 

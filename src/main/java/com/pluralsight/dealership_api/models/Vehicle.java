@@ -1,4 +1,4 @@
-package com.pluralsight.dealership_api.dealership;
+package com.pluralsight.dealership_api.models;
 
 public class Vehicle {
     // Fields that describe a vehicle
